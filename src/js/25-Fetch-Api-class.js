@@ -4,15 +4,12 @@ export default class NewsApiService {
     this.page = 1;
   }
 
-  fetchArticles() {
-    const BASE_URL = 'https://newsapi.org/v2/everything/';
-    const options = {
-      headers: {
-        Authorization: 'b55255e13e7549a6a39768fc375a1a1a',
-      },
-    };
+  fetchImg() {
+    const BASE_URL = 'https://pixabay.com/api/';
+    const API_KEY = '32942514-6053626dad09aaaa042cf88b1'
+    
     return fetch(
-      `https://newsapi.org/v2/everything/?q=cat&language=en&page=1&pageSize=5&apiKey=b55255e13e7549a6a39768fc375a1a1a`
+      `${BASE_URL}?key=${API_KEY}&q=${this.searchQuery}&image-type=all&page=${this.page}&per_page=10`
     )
       .then(response => {
         if (!response.ok) {
@@ -22,7 +19,7 @@ export default class NewsApiService {
       })
       .then(data => {
         this.incrementPage()
-        return data.articles;
+        return data.hits;
       });
   }
 
@@ -42,7 +39,3 @@ export default class NewsApiService {
   }
 }
 
-// return fetch(
-//   `${BASE_URL}?q=${this.searchQuery}&language=en&page=${this.page}&pageSize=5`,
-//   options
-// )
