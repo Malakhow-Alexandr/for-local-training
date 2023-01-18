@@ -12,8 +12,7 @@ export default class NewsApiService {
       },
     };
     return fetch(
-      `${BASE_URL}?q=${this.searchQuery}&language=en&page=${this.page}&pageSize=5`,
-      options
+      `https://newsapi.org/v2/everything/?q=cat&language=en&page=1&pageSize=5&apiKey=b55255e13e7549a6a39768fc375a1a1a`
     )
       .then(response => {
         if (!response.ok) {
@@ -42,3 +41,8 @@ export default class NewsApiService {
     this.searchQuery = newQuery;
   }
 }
+
+// return fetch(
+//   `${BASE_URL}?q=${this.searchQuery}&language=en&page=${this.page}&pageSize=5`,
+//   options
+// )
