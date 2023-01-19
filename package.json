@@ -5,7 +5,8 @@
   "homepage": "https://Malakhow-Alexandr.github.io/for-local-training",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /for-local-training/"
+    "build": "parcel build src/*.html --public-url /for-local-training/",
+    "server": "npx json-server --watch db.json"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "dependencies": {
     "bootstrap.native": "^4.2.0",
+    "json-server": "^0.17.1",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {

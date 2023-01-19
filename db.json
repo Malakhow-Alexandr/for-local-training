@@ -1,0 +1,101 @@
+{
+  "video-cards": [
+    {
+      "id": 1,
+      "title": "Asus PCI-Ex GeForce RTX 3050 Dual OC Edition 8GB",
+      "GraphicsChip": "GeForce RTX 3050",
+      "MemoryCapacity": "8 GB",
+      "BitSize": "128 bits",
+      "MemoryType": "GDDR6",
+      "CoolingSystem": "Active"
+    },
+    {
+      "id": 2,
+      "title": "Gigabyte PCI-Ex GeForce RTX 3060 Windforce OC 12G 12GB GDDR6",
+      "GraphicsChip": "GeForce RTX 3060",
+      "MemoryCapacity": "12 GB",
+      "BitSize": "192 bits",
+      "MemoryType": "GDDR6",
+      "CoolingSystem": "Active"
+    },
+    {
+      "id": 3,
+      "title": "MSI RTX 3060Ti 8Gb Ventus 2X OCV1",
+      "GraphicsChip": "GeForce RTX 3060 Ti",
+      "MemoryCapacity": "8 GB",
+      "BitSize": "256 bits",
+      "MemoryType": "GDDR6",
+      "CoolingSystem": "Active"
+    },
+    {
+      "id": 4,
+      "title": "MSI PCI-Ex GeForce RTX 3070 VENTUS 3X 8G OC LHR 8GB GDDR6",
+      "GraphicsChip": "GeForce RTX 3070",
+      "MemoryCapacity": "8 GB",
+      "BitSize": "256 bits",
+      "MemoryType": "GDDR6",
+      "CoolingSystem": "Active"
+    },
+    {
+      "id": 5,
+      "title": "MSI PCI-Ex GeForce RTX 3070 VENTUS 3X 8G OC LHR 8GB GDDR6",
+      "GraphicsChip": "GeForce RTX 3070",
+      "MemoryCapacity": "8 GB",
+      "BitSize": "256 bits",
+      "MemoryType": "GDDR6",
+      "CoolingSystem": "Active"
+    },{
+      "id": 6,
+      "title": "MSI PCI-Ex GeForce RTX 3070 VENTUS 3X 8G OC LHR 8GB GDDR6",
+      "GraphicsChip": "GeForce RTX 3070",
+      "MemoryCapacity": "8 GB",
+      "BitSize": "256 bits",
+      "MemoryType": "GDDR6",
+      "CoolingSystem": "Active"
+    },{
+      "id": 7,
+      "title": "Palit RTX 3070Ti 8Gb GameRock",
+      "GraphicsChip": "GeForce RTX 3070 Ti",
+      "MemoryCapacity": "8 GB",
+      "BitSize": "256 bits",
+      "MemoryType": "GDDR6X",
+      "CoolingSystem": "Active"
+    },
+    {
+      "id": 8,
+      "title": "INNO3D PCI-Ex GeForce RTX 3080 Twin X2 OC LHR 10GB GDDR6X",
+      "GraphicsChip": "GeForce RTX 3080",
+      "MemoryCapacity": "10 GB",
+      "BitSize": "320 bits",
+      "MemoryType": "GDDR6X",
+      "CoolingSystem": "Active"
+    },
+    {
+      "id": 9,
+      "title": "Zotac RTX 3080Ti 12GB GAMING Trinity",
+      "GraphicsChip": "GeForce RTX 3080 Ti",
+      "MemoryCapacity": "12 GB",
+      "BitSize": "384 bits",
+      "MemoryType": "GDDR6X",
+      "CoolingSystem": "Active"
+    },
+    {
+      "id": 10,
+      "title": "RTX 3090 24GB ASUS ROG Strix Gaming GDDR6X",
+      "GraphicsChip": "GeForce RTX 3090",
+      "MemoryCapacity": "24 GB",
+      "BitSize": "384 bits",
+      "MemoryType": "GDDR6X",
+      "CoolingSystem": "Active"
+    },
+    {
+      "id": 11,
+      "title": "MSI GeForce RTX 3090 Ti SUPRIM X 24G",
+      "Graphicschip": "GeForce RTX 3090 Ti",
+      "MemoryCapacity": "24 GB",
+      "BitSize": "384 bits",
+      "MemoryType": "GDDR6X",
+      "CoolingSystem": "Active"
+    }
+  ]
+}
