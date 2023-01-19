@@ -44,7 +44,8 @@
       "BitSize": "256 bits",
       "MemoryType": "GDDR6",
       "CoolingSystem": "Active"
-    },{
+    },
+    {
       "id": 6,
       "title": "MSI PCI-Ex GeForce RTX 3070 VENTUS 3X 8G OC LHR 8GB GDDR6",
       "GraphicsChip": "GeForce RTX 3070",
@@ -52,7 +53,8 @@
       "BitSize": "256 bits",
       "MemoryType": "GDDR6",
       "CoolingSystem": "Active"
-    },{
+    },
+    {
       "id": 7,
       "title": "Palit RTX 3070Ti 8Gb GameRock",
       "GraphicsChip": "GeForce RTX 3070 Ti",
@@ -96,6 +98,42 @@
       "BitSize": "384 bits",
       "MemoryType": "GDDR6X",
       "CoolingSystem": "Active"
+    },
+    {
+      "BitSize": "192 bits",
+      "CoolingSystem": "Active",
+      "GraphicsChip": "GeForce RTX 4070 Ti",
+      "MemoryCapacity": "12 GB",
+      "MemoryType": "GDDR6",
+      "title": "ASUS PCI-Ex GeForce RTX 4070 Ti TUF Gaming OC Edition 12GB GDDR6X",
+      "id": 12
+    },
+    {
+      "BitSize": "256 bits",
+      "CoolingSystem": "Active",
+      "GraphicsChip": "GeForce RTX 4080",
+      "MemoryCapacity": "16 GB",
+      "MemoryType": "GDDR6",
+      "title": "MSI PCI-Ex GeForce RTX 4080 Suprim X 16GB GDDR6X",
+      "id": 14
+    },
+    {
+      "BitSize": "384 bits",
+      "CoolingSystem": "Active",
+      "GraphicsChip": "GeForce RTX 4090",
+      "MemoryCapacity": "24 GB",
+      "MemoryType": "GDDR6X",
+      "title": "MSI GeForce RTX 4090 Ventus 3X 24G OC",
+      "id": 15
+    },
+    {
+      "BitSize": "256 bits",
+      "CoolingSystem": "Active",
+      "GraphicsChip": "GeForce RTX 4080",
+      "MemoryCapacity": "16 GB",
+      "MemoryType": "GDDR6",
+      "title": "MSI PCI-Ex GeForce RTX 4080 Suprim X 16GB GDDR6X",
+      "id": 16
     }
   ]
 }
