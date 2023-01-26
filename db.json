@@ -125,15 +125,6 @@
       "MemoryType": "GDDR6X",
       "title": "MSI GeForce RTX 4090 Ventus 3X 24G OC",
       "id": 15
-    },
-    {
-      "BitSize": "256 bits",
-      "CoolingSystem": "Active",
-      "GraphicsChip": "GeForce RTX 4080",
-      "MemoryCapacity": "16 GB",
-      "MemoryType": "GDDR6",
-      "title": "MSI PCI-Ex GeForce RTX 4080 Suprim X 16GB GDDR6X",
-      "id": 16
     }
   ]
 }

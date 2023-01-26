@@ -9,14 +9,10 @@ function fetchCards() {
   });
 }
 
-function fetchCardById(cardId) {
-  return fetch(`${BASE_URL}/video-cards/${cardId}`).then(response => {
-    if (!response.ok) {
-      throw new Error();
-    }
-    return response.json();
-  });
-}
+async function fetchCardById(cardId) {
+  const response = await fetch(`${BASE_URL}/video-cards/${cardId}`);
+  return response.json();
+};
 
 fetchCards();
 fetchCardById(2);

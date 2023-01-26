@@ -1,14 +1,10 @@
 const BASE_URL = 'http://localhost:3000';
 
-function deleteCard(cardId) {
+async function deleteCard(cardId) {
   const options = {
     method: 'DELETE',
   };
-  return fetch(`${BASE_URL}/video-cards/${cardId}`, options).then(response => {
-    if (!response.ok) {
-      throw new Error(response.statusText);
-    }
-    return response.json();
-  });
+  const response = await fetch(`${BASE_URL}/video-cards/${cardId}`, options);
+  return response;
 }
-deleteCard(17);
+deleteCard(16);
